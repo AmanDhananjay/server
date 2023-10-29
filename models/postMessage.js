@@ -13,8 +13,6 @@ createdAt:{
     type: Date,
     default: new Date()
 },
-
-
 });
 
 const postMessage = mongoose.model('postMessage', postSchema);
